@@ -1,0 +1,112 @@
+22070123089
+rachit sachdeva
+experiment 1
+
+CODE 1
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"hello world!"<<endl;
+    cout<<"my first program";
+
+    return 0;
+}
+/*
+OUTPUT
+
+hello world!
+my first program
+PS D:\22070123089\.vscode> */
+
+CODE 2
+
+#include<iostream>
+using namespace std;
+int a;
+int b;
+int sum;
+int diff;
+int prod;
+float divi;
+
+int main()
+{
+    cout<<"enter first number";
+    cin>> a;
+    cout<<"enter second number";
+    cin>> b;
+    sum = a + b ;
+    diff = a-b ;
+    prod = a*b;
+    divi = b/a;
+    cout<<"the sum of the numbers is"<<sum<<endl;
+    cout<<"the product of the numbers is"<<prod<<endl;
+    cout<<"the difference of the numbers is"<<diff<<endl;
+    cout<<"the division of the numbers is"<<divi<<endl;
+}
+
+/*
+OUTPUT
+
+enter first number6
+enter second number9
+the sum of the numbers is15
+the product of the numbers is54
+the difference of the numbers is-3
+the division of the numbers is1
+PS D:\22070123089\.vscode>*/
+
+CODE 3
+
+//22070123089
+//rachit sachdeva 
+//datatypes
+#include<iostream>
+using namespace std;
+int main()
+{
+    //declating and intializing variable of different data types
+    int myintvar = 45;
+    float myfloatvar = 23.4;
+    double mydoublevar = 19.90;
+    char mycharvar = '#';
+    string mystringvar = "hello";
+    bool myboolvar = true;
+    //printing the values of the variable
+    cout<<"the value of myintvar is "<<myintvar<<endl;
+    cout<<"the value of myfloatvar is "<<myfloatvar<<endl;
+    cout<<"the value of mydoublevar is "<<mydoublevar<<endl;
+    cout<<"the value of mycharvar is "<<mycharvar<<endl;
+    cout<<"the value of mystringvar is "<<mystringvar<<endl;
+    cout<<"the value of myboolvar is "<<myboolvar<<endl;
+    cout<<"the size of myintvar is "<<sizeof(myintvar)<<" bytes"<<endl;
+    cout<<"the size of myfloatvar is "<<sizeof(myfloatvar)<<" bytes"<<endl;
+    cout<<"the size of myfloatvar is "<<sizeof(myfloatvar)<<" bytes"<<endl;
+    cout<<"the size of mycharvar is "<<sizeof(mycharvar)<<" bytes"<<endl;
+    cout<<"the size of mystringvar is "<<sizeof(mystringvar)<<" bytes"<<endl;
+    cout<<"the size of myboolvar is "<<sizeof(myboolvar)<<" bytes"<<endl;
+
+    return 0;
+
+}
+
+/*OUTPUT
+
+the value of myintvar is 45
+the value of myfloatvar is 23.4
+the value of mydoublevar is 19.9
+the value of mycharvar is #
+the value of mystringvar is hello
+the value of myboolvar is 1
+the size of myintvar is 4 bytes
+the size of myfloatvar is 4 bytes
+the size of myfloatvar is 4 bytes
+the size of mycharvar is 1 bytes
+the size of mystringvar is 32 bytes
+the size of myboolvar is 1 bytes
+*/
+
+
